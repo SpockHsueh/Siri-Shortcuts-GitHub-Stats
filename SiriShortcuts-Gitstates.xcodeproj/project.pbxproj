@@ -1,0 +1,844 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043F1572225A3ED500061B49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F1571225A3ED500061B49 /* AppDelegate.swift */; };
+		043F1574225A3ED500061B49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F1573225A3ED500061B49 /* ViewController.swift */; };
+		043F1577225A3ED500061B49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043F1575225A3ED500061B49 /* Main.storyboard */; };
+		043F1579225A3ED600061B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043F1578225A3ED600061B49 /* Assets.xcassets */; };
+		043F157C225A3ED600061B49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043F157A225A3ED600061B49 /* LaunchScreen.storyboard */; };
+		043F158C225A3F5B00061B49 /* GitHubFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 043F158A225A3F5B00061B49 /* GitHubFetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		043F158F225A3F5B00061B49 /* GitHubFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043F1588225A3F5B00061B49 /* GitHubFetcher.framework */; };
+		043F1590225A3F5B00061B49 /* GitHubFetcher.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 043F1588225A3F5B00061B49 /* GitHubFetcher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		043F1596225A402600061B49 /* GitHubUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F1595225A402600061B49 /* GitHubUser.swift */; };
+		043F1598225A406100061B49 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F1597225A406100061B49 /* Fetcher.swift */; };
+		043F159B225A550E00061B49 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 043F159A225A550E00061B49 /* Intents.intentdefinition */; };
+		043F159C225B80DE00061B49 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 043F159A225A550E00061B49 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
+		043F15A4225B824400061B49 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F15A3225B824400061B49 /* IntentHandler.swift */; };
+		043F15AD225B824400061B49 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043F15AC225B824400061B49 /* IntentsUI.framework */; };
+		043F15B0225B824400061B49 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F15AF225B824400061B49 /* IntentViewController.swift */; };
+		043F15B3225B824400061B49 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043F15B1225B824400061B49 /* MainInterface.storyboard */; };
+		043F15B7225B824400061B49 /* GitHubUserIntentUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 043F15AA225B824400061B49 /* GitHubUserIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		043F15BA225B824400061B49 /* GitHubUserIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 043F15A1225B824400061B49 /* GitHubUserIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		043F15C2225B82ED00061B49 /* GitHubFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043F1588225A3F5B00061B49 /* GitHubFetcher.framework */; };
+		043F15C3225B82F200061B49 /* GitHubFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043F1588225A3F5B00061B49 /* GitHubFetcher.framework */; };
+		043F15C4225B832100061B49 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 043F159A225A550E00061B49 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
+		043F15C5225B832200061B49 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 043F159A225A550E00061B49 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
+		043F15C7225B84D800061B49 /* GitHubUserIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F15C6225B84D800061B49 /* GitHubUserIntentHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		043F158D225A3F5B00061B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043F1566225A3ED500061B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043F1587225A3F5B00061B49;
+			remoteInfo = GitHubFetcher;
+		};
+		043F15B5225B824400061B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043F1566225A3ED500061B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043F15A9225B824400061B49;
+			remoteInfo = GitHubUserIntentUI;
+		};
+		043F15B8225B824400061B49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043F1566225A3ED500061B49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043F15A0225B824400061B49;
+			remoteInfo = GitHubUserIntent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		043F1594225A3F5B00061B49 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				043F1590225A3F5B00061B49 /* GitHubFetcher.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043F15C1225B824400061B49 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				043F15BA225B824400061B49 /* GitHubUserIntent.appex in Embed App Extensions */,
+				043F15B7225B824400061B49 /* GitHubUserIntentUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		043F156E225A3ED500061B49 /* SiriShortcuts-Gitstates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SiriShortcuts-Gitstates.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		043F1571225A3ED500061B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		043F1573225A3ED500061B49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		043F1576225A3ED500061B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043F1578225A3ED600061B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043F157B225A3ED600061B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		043F157D225A3ED600061B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043F1588225A3F5B00061B49 /* GitHubFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GitHubFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		043F158A225A3F5B00061B49 /* GitHubFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitHubFetcher.h; sourceTree = "<group>"; };
+		043F158B225A3F5B00061B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043F1595225A402600061B49 /* GitHubUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUser.swift; sourceTree = "<group>"; };
+		043F1597225A406100061B49 /* Fetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetcher.swift; sourceTree = "<group>"; };
+		043F159A225A550E00061B49 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		043F15A1225B824400061B49 /* GitHubUserIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GitHubUserIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		043F15A3225B824400061B49 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		043F15A5225B824400061B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043F15AA225B824400061B49 /* GitHubUserIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GitHubUserIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		043F15AC225B824400061B49 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		043F15AF225B824400061B49 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		043F15B2225B824400061B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		043F15B4225B824400061B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043F15C6225B84D800061B49 /* GitHubUserIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUserIntentHandler.swift; sourceTree = "<group>"; };
+		043F15C8225B964E00061B49 /* SiriShortcuts-Gitstates.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SiriShortcuts-Gitstates.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043F156B225A3ED500061B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F158F225A3F5B00061B49 /* GitHubFetcher.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043F1585225A3F5B00061B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043F159E225B824400061B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F15C2225B82ED00061B49 /* GitHubFetcher.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043F15A7225B824400061B49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F15C3225B82F200061B49 /* GitHubFetcher.framework in Frameworks */,
+				043F15AD225B824400061B49 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043F1565225A3ED500061B49 = {
+			isa = PBXGroup;
+			children = (
+				043F1570225A3ED500061B49 /* SiriShortcuts-Gitstates */,
+				043F1589225A3F5B00061B49 /* GitHubFetcher */,
+				043F15A2225B824400061B49 /* GitHubUserIntent */,
+				043F15AE225B824400061B49 /* GitHubUserIntentUI */,
+				043F15AB225B824400061B49 /* Frameworks */,
+				043F156F225A3ED500061B49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		043F156F225A3ED500061B49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043F156E225A3ED500061B49 /* SiriShortcuts-Gitstates.app */,
+				043F1588225A3F5B00061B49 /* GitHubFetcher.framework */,
+				043F15A1225B824400061B49 /* GitHubUserIntent.appex */,
+				043F15AA225B824400061B49 /* GitHubUserIntentUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043F1570225A3ED500061B49 /* SiriShortcuts-Gitstates */ = {
+			isa = PBXGroup;
+			children = (
+				043F15C8225B964E00061B49 /* SiriShortcuts-Gitstates.entitlements */,
+				043F1571225A3ED500061B49 /* AppDelegate.swift */,
+				043F1573225A3ED500061B49 /* ViewController.swift */,
+				043F1575225A3ED500061B49 /* Main.storyboard */,
+				043F1578225A3ED600061B49 /* Assets.xcassets */,
+				043F157A225A3ED600061B49 /* LaunchScreen.storyboard */,
+				043F157D225A3ED600061B49 /* Info.plist */,
+			);
+			path = "SiriShortcuts-Gitstates";
+			sourceTree = "<group>";
+		};
+		043F1589225A3F5B00061B49 /* GitHubFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				043F1599225A44BB00061B49 /* Siri */,
+				043F158A225A3F5B00061B49 /* GitHubFetcher.h */,
+				043F158B225A3F5B00061B49 /* Info.plist */,
+				043F1595225A402600061B49 /* GitHubUser.swift */,
+				043F1597225A406100061B49 /* Fetcher.swift */,
+			);
+			path = GitHubFetcher;
+			sourceTree = "<group>";
+		};
+		043F1599225A44BB00061B49 /* Siri */ = {
+			isa = PBXGroup;
+			children = (
+				043F159A225A550E00061B49 /* Intents.intentdefinition */,
+			);
+			path = Siri;
+			sourceTree = "<group>";
+		};
+		043F15A2225B824400061B49 /* GitHubUserIntent */ = {
+			isa = PBXGroup;
+			children = (
+				043F15A3225B824400061B49 /* IntentHandler.swift */,
+				043F15A5225B824400061B49 /* Info.plist */,
+				043F15C6225B84D800061B49 /* GitHubUserIntentHandler.swift */,
+			);
+			path = GitHubUserIntent;
+			sourceTree = "<group>";
+		};
+		043F15AB225B824400061B49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				043F15AC225B824400061B49 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		043F15AE225B824400061B49 /* GitHubUserIntentUI */ = {
+			isa = PBXGroup;
+			children = (
+				043F15AF225B824400061B49 /* IntentViewController.swift */,
+				043F15B1225B824400061B49 /* MainInterface.storyboard */,
+				043F15B4225B824400061B49 /* Info.plist */,
+			);
+			path = GitHubUserIntentUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		043F1583225A3F5B00061B49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F158C225A3F5B00061B49 /* GitHubFetcher.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		043F156D225A3ED500061B49 /* SiriShortcuts-Gitstates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043F1580225A3ED600061B49 /* Build configuration list for PBXNativeTarget "SiriShortcuts-Gitstates" */;
+			buildPhases = (
+				043F156A225A3ED500061B49 /* Sources */,
+				043F156B225A3ED500061B49 /* Frameworks */,
+				043F156C225A3ED500061B49 /* Resources */,
+				043F1594225A3F5B00061B49 /* Embed Frameworks */,
+				043F15C1225B824400061B49 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043F158E225A3F5B00061B49 /* PBXTargetDependency */,
+				043F15B6225B824400061B49 /* PBXTargetDependency */,
+				043F15B9225B824400061B49 /* PBXTargetDependency */,
+			);
+			name = "SiriShortcuts-Gitstates";
+			productName = "SiriShortcuts-Gitstates";
+			productReference = 043F156E225A3ED500061B49 /* SiriShortcuts-Gitstates.app */;
+			productType = "com.apple.product-type.application";
+		};
+		043F1587225A3F5B00061B49 /* GitHubFetcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043F1591225A3F5B00061B49 /* Build configuration list for PBXNativeTarget "GitHubFetcher" */;
+			buildPhases = (
+				043F1583225A3F5B00061B49 /* Headers */,
+				043F1584225A3F5B00061B49 /* Sources */,
+				043F1585225A3F5B00061B49 /* Frameworks */,
+				043F1586225A3F5B00061B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitHubFetcher;
+			productName = GitHubFetcher;
+			productReference = 043F1588225A3F5B00061B49 /* GitHubFetcher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		043F15A0225B824400061B49 /* GitHubUserIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043F15BE225B824400061B49 /* Build configuration list for PBXNativeTarget "GitHubUserIntent" */;
+			buildPhases = (
+				043F159D225B824400061B49 /* Sources */,
+				043F159E225B824400061B49 /* Frameworks */,
+				043F159F225B824400061B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitHubUserIntent;
+			productName = GitHubUserIntent;
+			productReference = 043F15A1225B824400061B49 /* GitHubUserIntent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		043F15A9225B824400061B49 /* GitHubUserIntentUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043F15BB225B824400061B49 /* Build configuration list for PBXNativeTarget "GitHubUserIntentUI" */;
+			buildPhases = (
+				043F15A6225B824400061B49 /* Sources */,
+				043F15A7225B824400061B49 /* Frameworks */,
+				043F15A8225B824400061B49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitHubUserIntentUI;
+			productName = GitHubUserIntentUI;
+			productReference = 043F15AA225B824400061B49 /* GitHubUserIntentUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043F1566225A3ED500061B49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Spock;
+				TargetAttributes = {
+					043F156D225A3ED500061B49 = {
+						CreatedOnToolsVersion = 10.2;
+						SystemCapabilities = {
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					043F1587225A3F5B00061B49 = {
+						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
+					};
+					043F15A0225B824400061B49 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					043F15A9225B824400061B49 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 043F1569225A3ED500061B49 /* Build configuration list for PBXProject "SiriShortcuts-Gitstates" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043F1565225A3ED500061B49;
+			productRefGroup = 043F156F225A3ED500061B49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043F156D225A3ED500061B49 /* SiriShortcuts-Gitstates */,
+				043F1587225A3F5B00061B49 /* GitHubFetcher */,
+				043F15A0225B824400061B49 /* GitHubUserIntent */,
+				043F15A9225B824400061B49 /* GitHubUserIntentUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043F156C225A3ED500061B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F157C225A3ED600061B49 /* LaunchScreen.storyboard in Resources */,
+				043F1579225A3ED600061B49 /* Assets.xcassets in Resources */,
+				043F1577225A3ED500061B49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043F1586225A3F5B00061B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043F159F225B824400061B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043F15A8225B824400061B49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F15B3225B824400061B49 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043F156A225A3ED500061B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F159C225B80DE00061B49 /* Intents.intentdefinition in Sources */,
+				043F1574225A3ED500061B49 /* ViewController.swift in Sources */,
+				043F1572225A3ED500061B49 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043F1584225A3F5B00061B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F159B225A550E00061B49 /* Intents.intentdefinition in Sources */,
+				043F1596225A402600061B49 /* GitHubUser.swift in Sources */,
+				043F1598225A406100061B49 /* Fetcher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043F159D225B824400061B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F15C4225B832100061B49 /* Intents.intentdefinition in Sources */,
+				043F15C7225B84D800061B49 /* GitHubUserIntentHandler.swift in Sources */,
+				043F15A4225B824400061B49 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043F15A6225B824400061B49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F15C5225B832200061B49 /* Intents.intentdefinition in Sources */,
+				043F15B0225B824400061B49 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		043F158E225A3F5B00061B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043F1587225A3F5B00061B49 /* GitHubFetcher */;
+			targetProxy = 043F158D225A3F5B00061B49 /* PBXContainerItemProxy */;
+		};
+		043F15B6225B824400061B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043F15A9225B824400061B49 /* GitHubUserIntentUI */;
+			targetProxy = 043F15B5225B824400061B49 /* PBXContainerItemProxy */;
+		};
+		043F15B9225B824400061B49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043F15A0225B824400061B49 /* GitHubUserIntent */;
+			targetProxy = 043F15B8225B824400061B49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		043F1575225A3ED500061B49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043F1576225A3ED500061B49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043F157A225A3ED600061B49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043F157B225A3ED600061B49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		043F15B1225B824400061B49 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043F15B2225B824400061B49 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043F157E225A3ED600061B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		043F157F225A3ED600061B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043F1581225A3ED600061B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "SiriShortcuts-Gitstates/SiriShortcuts-Gitstates.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26WBMBDFCZ;
+				INFOPLIST_FILE = "SiriShortcuts-Gitstates/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spock.SiriShortcuts-Gitstates.SiriShortcuts-Gitstates";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		043F1582225A3ED600061B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "SiriShortcuts-Gitstates/SiriShortcuts-Gitstates.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26WBMBDFCZ;
+				INFOPLIST_FILE = "SiriShortcuts-Gitstates/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spock.SiriShortcuts-Gitstates.SiriShortcuts-Gitstates";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		043F1592225A3F5B00061B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 26WBMBDFCZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GitHubFetcher/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spock.SiriShortcuts-Gitstates.GitHubFetcher";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		043F1593225A3F5B00061B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 26WBMBDFCZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = GitHubFetcher/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spock.SiriShortcuts-Gitstates.GitHubFetcher";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		043F15BC225B824400061B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26WBMBDFCZ;
+				INFOPLIST_FILE = GitHubUserIntentUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spock.SiriShortcuts-Gitstates.SiriShortcuts-Gitstates.GitHubUserIntentUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		043F15BD225B824400061B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26WBMBDFCZ;
+				INFOPLIST_FILE = GitHubUserIntentUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spock.SiriShortcuts-Gitstates.SiriShortcuts-Gitstates.GitHubUserIntentUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		043F15BF225B824400061B49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26WBMBDFCZ;
+				INFOPLIST_FILE = GitHubUserIntent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spock.SiriShortcuts-Gitstates.SiriShortcuts-Gitstates.GitHubUserIntent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		043F15C0225B824400061B49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26WBMBDFCZ;
+				INFOPLIST_FILE = GitHubUserIntent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spock.SiriShortcuts-Gitstates.SiriShortcuts-Gitstates.GitHubUserIntent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043F1569225A3ED500061B49 /* Build configuration list for PBXProject "SiriShortcuts-Gitstates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043F157E225A3ED600061B49 /* Debug */,
+				043F157F225A3ED600061B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043F1580225A3ED600061B49 /* Build configuration list for PBXNativeTarget "SiriShortcuts-Gitstates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043F1581225A3ED600061B49 /* Debug */,
+				043F1582225A3ED600061B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043F1591225A3F5B00061B49 /* Build configuration list for PBXNativeTarget "GitHubFetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043F1592225A3F5B00061B49 /* Debug */,
+				043F1593225A3F5B00061B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043F15BB225B824400061B49 /* Build configuration list for PBXNativeTarget "GitHubUserIntentUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043F15BC225B824400061B49 /* Debug */,
+				043F15BD225B824400061B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043F15BE225B824400061B49 /* Build configuration list for PBXNativeTarget "GitHubUserIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043F15BF225B824400061B49 /* Debug */,
+				043F15C0225B824400061B49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043F1566225A3ED500061B49 /* Project object */;
+}
