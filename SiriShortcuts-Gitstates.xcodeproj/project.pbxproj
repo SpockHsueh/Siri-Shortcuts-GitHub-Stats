@@ -30,6 +30,7 @@
 		043F15C4225B832100061B49 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 043F159A225A550E00061B49 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
 		043F15C5225B832200061B49 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 043F159A225A550E00061B49 /* Intents.intentdefinition */; settings = {ATTRIBUTES = (no_codegen, ); }; };
 		043F15C7225B84D800061B49 /* GitHubUserIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F15C6225B84D800061B49 /* GitHubUserIntentHandler.swift */; };
+		043F15DE225CCD8A00061B49 /* check.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F15DD225CCD8A00061B49 /* check.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +107,7 @@
 		043F15B4225B824400061B49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		043F15C6225B84D800061B49 /* GitHubUserIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUserIntentHandler.swift; sourceTree = "<group>"; };
 		043F15C8225B964E00061B49 /* SiriShortcuts-Gitstates.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SiriShortcuts-Gitstates.entitlements"; sourceTree = "<group>"; };
+		043F15DD225CCD8A00061B49 /* check.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = check.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,6 +179,7 @@
 				043F1578225A3ED600061B49 /* Assets.xcassets */,
 				043F157A225A3ED600061B49 /* LaunchScreen.storyboard */,
 				043F157D225A3ED600061B49 /* Info.plist */,
+				043F15DD225CCD8A00061B49 /* check.swift */,
 			);
 			path = "SiriShortcuts-Gitstates";
 			sourceTree = "<group>";
@@ -408,6 +411,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043F15DE225CCD8A00061B49 /* check.swift in Sources */,
 				043F159C225B80DE00061B49 /* Intents.intentdefinition in Sources */,
 				043F1574225A3ED500061B49 /* ViewController.swift in Sources */,
 				043F1572225A3ED500061B49 /* AppDelegate.swift in Sources */,
